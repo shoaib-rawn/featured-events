@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" bg="light" className="px-3">
+   <Navbar expand="lg" bg="dark" variant="dark"  sticky="top"   className="px-3 shadow">
       <Container fluid>
         <Navbar.Brand as={Link} to="/">🎉 Events</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
