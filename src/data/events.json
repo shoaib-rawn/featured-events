@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "React Conference 2025",
+    "date": "2025-08-10",
+    "time": "10:00 AM",
+    "location": "Lahore Expo Center",
+    "description": "Join the biggest React community gathering."
+  },
+  {
+    "id": 2,
+    "name": "Tech Meetup",
+    "date": "2025-09-15",
+    "time": "5:00 PM",
+    "location": "Islamabad Giga Mall",
+    "description": "Discuss the latest trends in web development."
+  },
+  {
+    "id": 3,
+    "name": "Startup Pitch",
+    "date": "2025-07-25",
+    "time": "2:00 PM",
+    "location": "Karachi NEST IO",
+    "description": "Pitch your startup ideas to investors."
+  }
+]
