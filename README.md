@@ -4,14 +4,14 @@ A responsive, single-page application built using React that displays upcoming f
 
 ---
 
-## 🚀 Live Preview
+##  Live Preview
 
 🔗 [Live Site Link (Netlify/Vercel)](https://your-deployment-link.netlify.app)  
 *(Replace this link after deployment)*
 
 ---
 
-## 📦 Technologies Used
+## Technologies Used
 
 - **React.js** – Component-based UI
 - **React Router DOM** – Client-side routing
@@ -22,21 +22,20 @@ A responsive, single-page application built using React that displays upcoming f
 
 ---
 
-## 🛠️ Features
+# Features
 
-- ✅ Responsive navigation bar (collapses on mobile)
-- ✅ Hero section: “Discover Events Near You”
-- ✅ Featured Events section displaying 3–5 event cards
-- ✅ Each card includes: name, date/time, location, description, and "Register" button
-- ✅ 🔍 **Search bar** to filter events by name
-- ✅ Clean, mobile-first design using Bootstrap
-- ✅ Routing between Home, Events, and Contact pages
+- Responsive navigation bar (collapses on mobile)
+- Hero section: “Discover Events Near You”
+- Featured Events section displaying 3–5 event cards
+- Each card includes: name, date/time, location, description, and "Register" button
+ **Search bar** to filter events by name
+ Clean, mobile-first design using Bootstrap
+ Routing between Home, Events, and Contact pages
 
 ---
 
-## 📥 How to Run Locally
+##  How to Run Locally
 
 1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/featured-events.git
-   cd featured-events
+   
+  git remote add origin https://github.com/shoaib-rawn/featured-events.git
