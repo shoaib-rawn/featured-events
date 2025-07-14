@@ -4,10 +4,10 @@ A responsive, single-page application built using React that displays upcoming f
 
 ---
 
-##  Live Preview
+## 
+ Live Preview
 
-🔗 [Live Site Link (Netlify/Vercel)](https://your-deployment-link.netlify.app)  
-*(Replace this link after deployment)*
+🔗 [Live Site Link (Vercel)]
 
 ---
 

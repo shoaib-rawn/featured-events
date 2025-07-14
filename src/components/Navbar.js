@@ -6,7 +6,13 @@ function MyNavbar() {
   return (
    <Navbar expand="lg" bg="dark" variant="dark"  sticky="top"   className="px-3 shadow">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/">🎉 Events</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+          <img
+            src="/logo 3.png"
+            alt="Events logo"
+            height="40"
+            className="d-inline-block align-top"
+          /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
