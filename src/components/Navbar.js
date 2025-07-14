@@ -1,18 +1,23 @@
+// src/components/Navbar.js
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function MyNavbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-      <Link className="navbar-brand" to="/">🎉 Events</Link>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ms-auto">
-          <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/events">Events</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar expand="lg" bg="light" className="px-3">
+      <Container fluid>
+        <Navbar.Brand as={Link} to="/">🎉 Events</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/events">Events</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default MyNavbar;
