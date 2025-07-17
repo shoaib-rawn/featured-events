@@ -1,13 +1,12 @@
-# 🎉 Featured Events - React Website
+ Featured Events - React Website
 
 A responsive, single-page application built using React that displays upcoming featured events in a clean and mobile-friendly layout.
 
 ---
 
-## 
- Live Preview
+## Live Preview
+https://featured-events-23ua.vercel.app/
 
-🔗 [Live Site Link (Vercel)]
 
 ---
 
